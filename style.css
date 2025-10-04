@@ -1,0 +1,60 @@
+body {
+    font-family: 'Cairo', Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+}
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0001;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.filters {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+.product-card {
+    background: #f0f4f8;
+    border-radius: 8px;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 1px 4px #0001;
+}
+.product-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.stats {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.charts {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.charts canvas {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 450px;
+    max-height: 320px;
+} 

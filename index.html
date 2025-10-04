@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyse des Ventes du Magasin</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Analyse des Ventes du Magasin</h1>
+        <div class="filters">
+            <label>Catégorie :</label>
+            <select id="categoryFilter">
+                <option value="all">Toutes</option>
+            </select>
+        </div>
+        <div id="products" class="products"></div>
+        <div class="stats" id="stats"></div>
+        <div class="charts">
+            <canvas id="lineChart"></canvas>
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
