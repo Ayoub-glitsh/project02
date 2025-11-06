@@ -49,7 +49,7 @@ projet-ventes/
 
 ### 1. Télécharger les fichiers :
 ```bash
-git clone [url-du-repo]
+git clone https://github.com/Ayoub-glitsh/project02.git
 ```
 
 ### 2. Ouvrir le projet :
