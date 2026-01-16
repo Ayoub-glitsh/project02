@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=36BCF7&center=true&vCenter=true&width=650&lines=Analyse+des+Ventes+du+Magasin" />
+</p>
+
 # 📊 Analyse des Ventes du Magasin
 
 Une application web interactive pour visualiser et analyser les données de ventes d'un magasin d'électronique et d'informatique.
